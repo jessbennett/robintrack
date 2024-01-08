@@ -1,2 +1,1 @@
-class ApplicationJob < ActiveJob::Base
-end
+R int <true>
