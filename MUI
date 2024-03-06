@@ -1,0 +1,18 @@
+import * as React from 'react';
+import { BarChart } from '@mui/x-charts/BarChart';
+
+export default function ChartsOverviewDemo() {
+  return (
+    <BarChart
+      series={[
+        { data: [2, 4, 6, 8] },
+        { data: [4, 8, 12, 14] },
+        { data: [6, 12, 18, 24] },
+        { data: [8, 16, 24, 32] },
+      ]}
+      height={290}
+      xAxis={[{ data: ['Q1', 'Q2', 'Q3', 'Q4'], scaleType: 'band' }]}
+      margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
+    />
+  );
+}
