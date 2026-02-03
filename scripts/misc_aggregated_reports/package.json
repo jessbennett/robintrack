@@ -3,7 +3,7 @@
     "csv-generate": "^3.4.0",
     "csv-reader": "^1.0.8",
     "csv-writer": "^1.6.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "node-fetch": "^3.2.10"
   }
 }
