@@ -4502,12 +4502,13 @@ echarts-for-react@^2.0.16:
     fast-deep-equal "^2.0.1"
     size-sensor "^1.0.0"
 
-echarts@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/echarts/-/echarts-4.8.0.tgz#b2c1cfb9229b13d368ee104fc8eea600b574d4c4"
-  integrity sha512-YwShpug8fWngj/RlgxDaYrLBoD+LsZUArrusjNPHpAF+is+gGe38xx4W848AwWMGoi745t3OXM52JedNrv+F6g==
+echarts@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-6.1.0.tgz#ae0f68590f5ebbd728d900907c27acde7c5456d1"
+  integrity sha512-q0yaFPggC9FUdsWH4blavRWFmxdrIodbkoKNAjJudAI6CA9gNPxHtV2RcZNEepZVlk4yvBYkOkbk6HIVpIyHZA==
   dependencies:
-    zrender "4.3.1"
+    tslib "2.3.0"
+    zrender "6.1.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -11360,12 +11361,12 @@ ts-toolbelt@*, ts-toolbelt@^6.3.3, ts-toolbelt@^6.9.4:
   resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.13.39.tgz#80541ce39b595a42be5ddd04e3e6df65597774f8"
   integrity sha512-VD/rJ6+NGFA7AK2KWmGzLifrqA060M9o7+R2BxJtLBlwmfEaGdqGeyUPRDKhMZPMgpT/JMQ6+X+/ppaZNzuhvw==
 
-tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
-  integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
+tslib@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
-tslib@^1.9.3:
+tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
@@ -12187,7 +12188,9 @@ zod@^3.24.2:
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.3.6.tgz#89c56e0aa7d2b05107d894412227087885ab112a"
   integrity sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==
 
-zrender@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/zrender/-/zrender-4.3.1.tgz#baf8aa6dc8187a2f819692d7d5f9bedfa2b90fa3"
-  integrity sha512-CeH2TpJeCdG0TAGYoPSAcFX2ogdug1K7LIn9UO/q9HWqQ54gWhrMAlDP9AwWYMUDhrPe4VeazQ4DW3msD96nUQ==
+zrender@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-6.1.0.tgz#c3ef06e6426d5c28865b7183035680d685e00136"
+  integrity sha512-oEGMDB6pOP2S6OwRR4PdVv610zrjnA3Bh+JnSG12fYJlBKjtNAoEb5fSUoCOOINlH96I2fU38/A2UpRKs67xYQ==
+  dependencies:
+    tslib "2.3.0"
